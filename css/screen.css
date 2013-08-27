@@ -118,7 +118,7 @@ section.cta {
 
 h3 {
     color: #c22527;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif !important;
     font-weight: 400;
     font-size: 30px;
     line-height: 28px;
