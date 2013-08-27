@@ -115,6 +115,10 @@ section.cta {
         font-size: 150%;
     }
 
+em {
+    font-style: normal;
+    font-weight: bold;
+}
 
 h3 {
     color: #c22527;
