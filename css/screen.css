@@ -17,7 +17,6 @@ body {
     margin: 0 0;
     position: fixed;
     background: #fff;
-    height: 78px;
     top: 0;
     width: 100%;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
@@ -197,6 +196,9 @@ img.phone {
 
 
 @media (max-width: 867px) {
+    .header #menubar {
+        display: none;
+    }
     .splash .splash-subhead {
         font-size: 3.5em;
     }
