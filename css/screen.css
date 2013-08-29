@@ -96,8 +96,8 @@ section.cta {
         }
 
 .splash {
-    padding: 3em 0.5em;
-    background: url('../img/barcelona2.jpg') no-repeat left top;
+    padding-top: 3em;
+    background: url('../img/barcelona.jpg') no-repeat left top;
     background-size: cover;
     height: 500px;
 }
@@ -197,13 +197,21 @@ img.phone {
 
 
 @media (max-width: 660px) {
+    .splash {
+        height: 350px;
+        padding: 1.5em;
+    }
     .splash .splash-subhead {
-        font-size: 3em;
+        font-size: 2.2em;
     }
 }
 
 @media (max-width: 480px) {
+    .splash {
+        height: 300px;
+        padding-top: 0.5em;
+    }
     .splash .splash-subhead {
-        font-size: 2.5em;
+        font-size: 1.5em;
     }
 }
