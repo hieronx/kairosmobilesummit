@@ -97,7 +97,9 @@ section.cta {
 
 .splash {
     padding: 3em 0.5em;
-    background: #eee;
+    background: url('../img/barcelona2.jpg') no-repeat left top;
+    background-size: cover;
+    height: 500px;
 }
     .splash .splash-head {
         color: #c22527;
@@ -109,10 +111,15 @@ section.cta {
         text-transform: uppercase;
     }
     .splash .splash-subhead {
-        color: #333;
-        font-weight: 300;
+        color: #fff;
+        font-family: Oswald;
+        font-weight: 100;
         line-height: 1.4em;
         -webkit-font-smoothing: antialiased;
+        font-size: 4em;
+        margin-top: 0px;
+        text-shadow: 1px 1px 5px #444;
+        text-align: center;
     }
     .splash .primary-button {
         font-size: 150%;
