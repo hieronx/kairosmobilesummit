@@ -187,3 +187,23 @@ img.phone {
     padding: 1em;
     font-size: 80%;
 }
+
+
+@media (max-width: 867px) {
+    .splash .splash-subhead {
+        font-size: 3.5em;
+    }
+}
+
+
+@media (max-width: 660px) {
+    .splash .splash-subhead {
+        font-size: 3em;
+    }
+}
+
+@media (max-width: 480px) {
+    .splash .splash-subhead {
+        font-size: 2.5em;
+    }
+}
