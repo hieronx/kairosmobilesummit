@@ -15,6 +15,12 @@ body {
 
 .header {
     margin: 0 0;
+    position: fixed;
+    background: #fff;
+    height: 78px;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
 }
     .header .container {
         padding: 0;
@@ -100,6 +106,7 @@ section.cta {
     background: url('../img/barcelona.jpg') no-repeat left top;
     background-size: cover;
     height: 500px;
+    margin-top: 78px;
 }
     .splash .splash-head {
         color: #c22527;
