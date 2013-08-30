@@ -53,6 +53,13 @@ section.odd {
     background: #eee;
 }
 
+section.partners .container {
+    padding-top: 40px;
+}
+section.partners img {
+    max-height: 80px;
+}
+
 
 section.cta {
     background: url('../img/services_bg.jpg') repeat-y center fixed;
