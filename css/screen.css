@@ -93,7 +93,7 @@ section.cta {
         margin-bottom: 60px;
     }
     section.cta a.pure-button {
-        background-color: rgba(0, 196, 146, 0.1) !important;
+        background-color: rgba(0, 0, 0, 0) !important;
         border: 3px solid #c22527;
         color: #c22527;
         margin-right: 20px;
@@ -107,6 +107,10 @@ section.cta {
             background: #c22527 !important;
             color: #fff;
         }
+
+section.speakers .pure-u-1-3 {
+    padding-right: 20px;
+}
 
 .box {
     padding: 5px;
