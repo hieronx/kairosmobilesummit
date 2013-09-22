@@ -81,6 +81,14 @@ section.partners .container {
 section.partners img {
     max-height: 80px;
 }
+section.partners .pure-g-r {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
+    section.partners .pure-g-r:last-child {
+        border: 0;
+        padding-bottom: 10px;
+    }
 
 
 section.cta {
