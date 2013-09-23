@@ -200,8 +200,16 @@ a.anchor {
     background-size: cover;
     height: 500px;
     margin-top: 78px;
-    text-align: center;
 }
+    .splash .splash-head {
+        color: #c22527;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+        margin: 0em 0;
+        line-height: 34px;
+        text-transform: uppercase;
+    }
     .splash .splash-subhead {
         color: #fff;
         font-family: Oswald;
@@ -211,20 +219,11 @@ a.anchor {
         font-size: 4em;
         margin-top: 0px;
         text-shadow: 1px 1px 5px #444;
+        text-align: center;
     }
-    .splash a.pure-button {
-        background-color: rgba(194, 37, 39, 0.5) !important;
-        border: 3px solid #c22527;
-        color: #fff;
-        padding: 10px 60px !important;
-        font-size: 24px !important;
-        font-family: Oswald;
-        text-transform: uppercase;
+    .splash .primary-button {
+        font-size: 150%;
     }
-        .splash a.pure-button:hover {
-            background: #c22527 !important;
-            color: #fff;
-        }
 
 
 img.phone {
@@ -269,12 +268,12 @@ img.phone {
 }
 
 
-@media (max-width: 880px) {
+@media (max-width: 867px) {
     .header #menubar {
         display: none;
     }
     .splash .splash-subhead {
-        font-size: 3.2em;
+        font-size: 3.5em;
     }
 }
 
@@ -287,9 +286,6 @@ img.phone {
     .splash .splash-subhead {
         font-size: 2.2em;
     }
-    .splash a.pure-button {
-        font-size: 20px !important;
-    }
 }
 
 @media (max-width: 480px) {
@@ -299,8 +295,5 @@ img.phone {
     }
     .splash .splash-subhead {
         font-size: 1.5em;
-    }
-    .splash a.pure-button {
-        font-size: 14px !important;
     }
 }
