@@ -47,19 +47,11 @@ h4 {
     .header .container {
         padding: 0;
     }
-
-    .header .pure-menu {
-        background: #fff !important;
-        padding: 0.5em;
+    .header .pure-button {
+        padding: 6px 16px;
     }
-        .header .container img {
-            margin-top: 5px;
-        }
-        .header .pure-menu li a:hover,
-        .header .pure-menu li a:focus {
-            background: none;
-            border: none;
-            color: #aaa;
+        .header .pure-button:hover {
+            color: #ddd !important;
         }
 
 .container {
