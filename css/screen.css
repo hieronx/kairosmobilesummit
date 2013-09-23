@@ -120,7 +120,11 @@ section.cta {
     section.cta h3 {
         color: #fff;
         line-height: 50px;
-        margin-bottom: 60px;
+        margin-bottom: 20px;
+    }
+    section.cta h4 {
+        color: #666;
+        margin-bottom: 40px;
     }
     section.cta a.pure-button {
         background-color: rgba(0, 0, 0, 0) !important;
