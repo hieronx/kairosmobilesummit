@@ -93,6 +93,8 @@ section.partners .pure-g-r {
         padding-bottom: 0;
     }
 section.partners #tier1 {
+    margin: 10px auto;
+    max-width: 600px;
 }
     section.partners #tier1 img {
         max-height: 120px;
