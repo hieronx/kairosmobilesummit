@@ -105,7 +105,7 @@ section.partners #tier2 {
     section.partners #tier2 img {
         max-height: 80px;
     }
-    section.partners #tier2 div.mrripley img {
+    section.partners #tier2 div.mrripley img, section.partners #tier2 div.barcinno img {
         padding: 20px 0 0 20px;
     }
     section.partners #tier2 div.keiretsu img, section.partners #tier2 div.telefonica img {
