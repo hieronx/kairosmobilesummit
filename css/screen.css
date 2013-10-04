@@ -168,6 +168,12 @@ section.speakers img {
         opacity: 0.5;
     }
 
+section.startups img:hover {
+    -webkit-opacity: 0.5;
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+}
+
 #kairos-video {
     text-align: center;
 }
