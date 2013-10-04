@@ -182,8 +182,9 @@ a.anchor {
 .press .box {
     padding: 5px 25px 15px 25px;
     margin-right: 20px;
-    height: 250px;
+    height: 290px;
     margin-bottom: 20px;
+    max-width: 280px;
 }
 
 .menu {
