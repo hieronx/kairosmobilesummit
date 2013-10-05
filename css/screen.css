@@ -43,6 +43,7 @@ h4 {
     width: 100%;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
     height: 80px;
+    z-index: 10;
 }
     .header .container {
         padding: 0;
@@ -174,8 +175,10 @@ section.startups img:hover {
     opacity: 0.5;
 }
 
-#kairos-video {
+#kairos-video, #kairos-video iframe {
+    height: 500px;
     text-align: center;
+    width: 100%;
 }
 
 a.anchor {

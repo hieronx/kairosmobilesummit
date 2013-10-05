@@ -14,9 +14,12 @@
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.2.1/pure-min.css">
     <link rel="stylesheet" href="css/pure-skin-kairos.css">
     <link rel="stylesheet" href="css/screen.css">
-        
-    <script src="http://use.typekit.net/ajf8ggy.js"></script>
-    <script>
+    <link rel="stylesheet" href="css/vimeoEmbedder.css">
+
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery.vimeoEmbedder.js"></script>
+    <script type="text/javascript" src="http://use.typekit.net/ajf8ggy.js"></script>
+    <script type="text/javascript">
         try { Typekit.load(); } catch (e) {}
     </script>
 </head>
@@ -142,12 +145,10 @@
                     <p>Get ready for the <em>Mobile Innovation Challenge</em>, a hackathon where the best ideas from the ideation sessions will be crafted into business models with the guidance of mentors. We’ll have a <em>Mobile Demo Day</em> where the teams of the most innovative mobile startups will pitch their long-term plan to tackle a global challenge. Following our new partnership model, this is not simply a one-time collaboration – the top mobile ventures will earn the opportunity to <em>attend the Mobile World Congress 2014</em> in Barcelona on behalf of Kairos.</p>
                      
                     <p>See you in Barcelona!</p>
-
-                    <div id="kairos-video">
-                        <iframe src="//player.vimeo.com/video/73872367?title=0&amp;byline=0&amp;portrait=0&amp;color=c22527" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                    </div>
                 </div>
             </section>
+
+            <div id="vimeoEmbedder"></div>
             
             <section>
                 <a name="agenda" class="anchor"></a>
