@@ -58,11 +58,19 @@ h4 {
             color: #ddd !important;
         }
 
+.buttons {
+    display: block;
+    text-align: center;
+}
+
 .container {
     max-width: 960px;
     margin: 0 auto;
     padding: 20px 20px 0 20px;
 }
+    .splash .container {
+        padding-top: 0;
+    }
 
 section {
     padding-bottom: 30px;
@@ -324,7 +332,7 @@ img.phone {
 @media (max-width: 480px) {
     .splash {
         height: 300px;
-        padding-top: 0.5em;
+        padding-top: 1em;
     }
     .splash .splash-subhead {
         font-size: 1.5em;
