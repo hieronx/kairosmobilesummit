@@ -161,10 +161,10 @@ section.cta {
             color: #fff;
         }
 
-section.speakers h4 {
+section.speakers h4, section.startups h4 {
     margin: 10px 0;
 }
-section.speakers .pure-u-1-4 {
+section.speakers .pure-u-1-4, section.startups .pure-u-1-4 {
     padding-bottom: 20px;
     text-align: center;
 }
