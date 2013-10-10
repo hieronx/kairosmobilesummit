@@ -190,6 +190,9 @@ a.anchor {
     position: relative;
     top: -80px;
 }
+    .cta a.anchor {
+        top: -160px;
+    }
 
 .box {
     padding: 5px;
