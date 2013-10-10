@@ -8,6 +8,16 @@ $( document ).ready(function() {
 		var vimeoBgColor = "000000"; // set the background color of Vimeo player
 
 		$('#vimeoEmbedder').html("<div id=\"video\" vimeo-color="+ vimeoColor +" vimeo-id="+ vimeoID +"><div class=\"video-container\" style=\"width:"+ width +"; height:"+ height +"; background-color:#"+ vimeoBgColor +";\"><span class=\"play\"><span style=\"background-color:#"+ playButtonColor +";\"></span></span> <img alt=\"Play\" src="+ image +" class=\"placeholder\"></div></div>"); // Get the HTML contents of the video player
+
+		$('a[href^="#"]').on('click',function (e) {
+		    e.preventDefault();
+
+				$('html,body').animate({
+					scrollTop: $('[name="'+this.hash.substring(1)+'"]').offset().top},
+					500
+				);
+		});
+
 });
 
 
