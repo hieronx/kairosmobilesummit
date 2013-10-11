@@ -207,9 +207,9 @@ section.speakers {
             display: none;
         }
         section.speakers .speaker:hover img {
-            -webkit-opacity: 0.5;
-            -moz-opacity: 0.5;
-            opacity: 0.5;
+            -webkit-opacity: 0.2;
+            -moz-opacity: 0.2;
+            opacity: 0.2;
         }
         section.speakers .speaker:hover .photo, section.speakers .speaker:hover .hover-box {
             display: block;
