@@ -120,6 +120,7 @@ section.partners {
 }
     section.partners .container {
         padding-top: 40px;
+        max-width: none;
     }
     section.partners img {
         max-height: 80px;
@@ -130,8 +131,7 @@ section.partners {
             opacity: 0.5;
         }
     section.partners .pure-g-r {
-        border-bottom: 1px solid #ddd;
-        padding: 20px 0;
+/*        border-bottom: 1px solid #ddd;*/
     }
         section.partners .pure-g-r:first-child {
             padding-top: 0;
@@ -165,7 +165,7 @@ section.partners {
             padding: 10px 0 0 20px;
         }
     section.partners #tier3 {
-        margin: 10px auto;
+        margin: 30px auto;
         max-width: 250px;
     }
         section.partners #tier3 img {
