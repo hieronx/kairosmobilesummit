@@ -205,19 +205,25 @@ section.speakers {
     }
         section.speakers .speaker .hover-box {
             display: none;
+            padding: 0 6px;
         }
         section.speakers .speaker:hover img {
-            -webkit-opacity: 0.2;
-            -moz-opacity: 0.2;
-            opacity: 0.2;
+            -webkit-opacity: 0.2 !important;
+            -moz-opacity: 0.2 !important;
+            opacity: 0.2 !important;
         }
-        section.speakers .speaker:hover .photo, section.speakers .speaker:hover .hover-box {
-            display: block;
+        section.speakers .speaker .photo, section.speakers .speaker .hover-box {
             width: 100%;
             height: 100%;
             position: absolute;
             top: 0;
             left: 0;
+        }
+        section.speakers .speaker:hover .hover-box {
+            display: block !important;
+            -webkit-opacity: 1;
+            -moz-opacity: 1;
+            opacity: 1;
         }
 
 
